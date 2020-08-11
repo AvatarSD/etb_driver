@@ -71,6 +71,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XYCHTEKP
 
+[Document3]
+DocumentPath=power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QXMZJTTN
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1084,13 +1101,13 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=self_custom_etb_driver.SCHLIB
-ComponentDesignItemID0=
+ComponentDesignItemID0=IC_STMicroelectronics_VNH2SP30-E_eec
 ComponentSymbolReference0=IC_STMicroelectronics_VNH2SP30-E_eec
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=self_custom_etb_driver.SCHLIB
-ComponentDesignItemID1=
+ComponentDesignItemID1=VNH5019A-E
 ComponentSymbolReference1=VNH5019A-E
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
