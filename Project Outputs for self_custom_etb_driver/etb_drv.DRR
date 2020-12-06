@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: etb_drv.PcbDoc   06.12.2020  21:57:40
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : etb_drv-RoundHoles.TXT
+ASCII SlotHoles File : etb_drv-SlotHoles.TXT
+EIA File   : etb_drv.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.4mm (16mil)                                             Round             205       PTH        0.00mm (0.00inch)
+T2      0.762mm (30mil)                                           Round             72        PTH        0.00mm (0.00inch)
+T3      1.016mm (40mil)                                           Slot              6         PTH        0.00mm (0.00inch)
+T4      3.048mm (120mil)                                          Round             4         PTH        0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              287
+
+Total Processing Time (hh:mm:ss) : 00:00:00

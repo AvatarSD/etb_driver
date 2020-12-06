@@ -1,14 +1,22 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 17:49:08 On 20.08.2020
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [self_custom_etb_driver.PrjPcb]
+   Generated File[etb_drv_Copper_Signal_Top.gbr]
+   Generated File[etb_drv_Copper_Signal_Bot.gbr]
+   Generated File[etb_drv_Pads_Bot.gbr]
+   Generated File[etb_drv_Pads_Top.gbr]
+   Generated File[etb_drv_Legend_Bot.gbr]
+   Generated File[etb_drv_Soldermask_Bot.gbr]
+   Generated File[etb_drv_Paste_Bot.gbr]
+   Generated File[etb_drv_Legend_Top.gbr]
+   Generated File[etb_drv_Paste_Top.gbr]
+   Generated File[etb_drv_Soldermask_Top.gbr]
+   Generated File[etb_drv_Profile.gbr]
+   Generated File[etb_drv.EXTREP]
+   Generated File[etb_drv.REP]
 
-Output: stepmodel
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [etb_drv.PcbDoc]
-   Generated File[etb_drv.step]
 
-
-Files Generated   : 1
+Files Generated   : 13
 Documents Printed : 0
 
-Finished Output Generation At 17:49:17 On 20.08.2020
+Finished Output Generation At 21:58:45 On 06.12.2020
