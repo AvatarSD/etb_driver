@@ -215,54 +215,90 @@ DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.LDP
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.REP
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Legend_Bot.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Legend_Top.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Pads_Bot.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Pads_Top.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Paste_Bot.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Paste_Top.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.REP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Profile.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
 DocumentPath=Project Outputs for self_custom_etb_driver\etb_drv_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -528,7 +564,7 @@ OutputDefault1=0
 Configuration1_Name1=ForceUpdateSettings
 Configuration1_Item1=False
 Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
@@ -634,6 +670,10 @@ OutputName12=Gerber Files
 OutputDocumentPath12=
 OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908289~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
